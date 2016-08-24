@@ -1,7 +1,91 @@
-body {
-    background-color: 	#F5FFFA;
-}
 
 h1 {
     background-color: #F5F5F5;
+}
+
+body {
+    background-image: url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwi3ks7Ev9nOAhVJ-2MKHczVDSIQjRwIBw&url=http%3A%2F%2Flucasbardella.com%2Freport%2Fhosting-your-sphinx-docs-in-github%2F&psig=AFQjCNGwmGVxi6uX0EOjOOQ-LNutqiWU_w&ust=1472108884593860");
+}
+
+
+.deform:hover {
+  -webkit-transform: skew(45deg, 45deg);
+  -moz-transform: skew(45deg, 45deg);
+  transform: skew(45deg, 45deg);
+}
+
+body {
+  background-color: #333;
+  background: repeating-linear-gradient(45deg, #f6f6f6 0, #f6f6f6 5%, #fff 0, #fff 50%) 0 / 20px 20px;
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans CondLight'), local('OpenSansCondensedLight'), url(http://themes.googleusercontent.com/static/fonts/opensanscondensed/v7/gk5FxslNkTTHtojXrkp-xF1YPouZEKgzpqZW9wN-3Ek.woff) format('woff');
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+body {
+  background-color: #333;
+  background: repeating-linear-gradient(45deg, #f6f6f6 0, #f6f6f6 5%, #fff 0, #fff 50%) 0 / 20px 20px;
+}
+
+#container {
+  width: 330px;
+  margin: 25px auto;
+}
+
+
+h1 {
+  color: #333;
+  font-family: Open Sans Condensed;
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1:hover {
+  font-size: 2.5em;
+}
+
+h1:hover:before,
+h1:hover:after {
+  font-style: italic;
+  font-size: 0.5em;
+}
+
+
+
+
+button {
+  width: 100px;
+  height: 30px;
+  color: #ffffff;
+  background-color: #3498db;
+  font-family: Open Sans Condensed;
+  text-decoration: none;
+  font-size: 1.2em;
+  border: 2px #ffffff solid;
+  margin: 5px 0 0 3px;
+  -webkit-transition: all 1.0s;
+  -moz-transition: all 1.0s;
+  transition: all 1.0s;
+}
+
+img {
+    position: float;
+    left: 100px;
+    top: 100px;
+    z-index: -3;
 }
