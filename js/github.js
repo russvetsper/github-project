@@ -13,7 +13,7 @@ Repo.prototype.getRepos = function(name) {
 
 
     for(var i = 0; i <= response.length; i++){
-      $('ul#repos').append("<li>" + response[i].name + "</li>");
+      $('ul#repos').append("<li>" + response[i].name + .description "</li>");
     }
 
   }).fail(function(error){
